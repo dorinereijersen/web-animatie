@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "P22 Underground Book"; 
+    src:url("https://use.typekit.net/ebr4koe.css");
+}
+body {
+    background-color: #F8F4E7;
+    
+}
+
+h2 {
+    font-family: P22 Underground Book;
+    color: #EA5235;
+}
+
+svg {
+    width: 60%;
+    position: absolute;
+    margin-left: 15%;
+}
+
+#weegschaal {
+    position: relative;
+    float: right;
+    width: 15%;
+    z-index: 2;
+    margin-right: 29%;
+    margin-top: 23%;
+}
+
+#Rotate1 {
+    transform: rotate(-58deg);
+   
+}
+
+#Rotate2 {
+    transform: rotate(34deg);
+    margin: 44%;
+    font-size: 180%;
+    position: fixed;
+}
