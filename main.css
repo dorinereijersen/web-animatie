@@ -1,40 +1,53 @@
+/*algemeen*/
+
 @font-face {
     font-family: "P22 Underground Book"; 
     src:url("https://use.typekit.net/ebr4koe.css");
 }
 body {
     background-color: #F8F4E7;
-    
+    width: 60%;
+    text-align: center;
 }
+
+/*kopjes*/
 
 h2 {
     font-family: P22 Underground Book;
     color: #EA5235;
+    font-size: 2.5vw;
+    letter-spacing: 1.6px;
+}
+
+#h2_1{
+    position: absolute;
+    left: 19.1%;
+}
+
+#h2_2 {
+    float: right;
+    padding-left: 48.5%;
+    position: absolute;
+    margin-top: 13%;
+}
+
+/*inhoud*/
+
+section {
+    width: 60%;
 }
 
 svg {
     width: 60%;
     position: absolute;
-    margin-left: 15%;
+    top: 2%;
 }
 
-#weegschaal {
-    position: relative;
+img {
     float: right;
+    position: absolute;
+    z-index: 3;
     width: 15%;
-    z-index: 2;
-    margin-right: 29%;
     margin-top: 23%;
-}
-
-#Rotate1 {
-    transform: rotate(-58deg);
-   
-}
-
-#Rotate2 {
-    transform: rotate(34deg);
-    margin: 44%;
-    font-size: 180%;
-    position: fixed;
+    margin-left: 40.5%;
 }
