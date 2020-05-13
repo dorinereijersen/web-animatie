@@ -1,8 +1,8 @@
 /*algemeen*/
 
 @font-face {
-    font-family: "P22 Underground Book"; 
-    src:url("https://use.typekit.net/ebr4koe.css");
+    font-family: "P22 Underground Book";
+    src: url("https://use.typekit.net/ebr4koe.css");
 }
 
 body {
@@ -11,7 +11,8 @@ body {
     text-align: center;
 }
 
-body, svg {
+body,
+svg {
     margin-top: 10%;
 }
 
@@ -24,7 +25,7 @@ h2 {
     letter-spacing: 1.6px;
 }
 
-#h2_1{
+#h2_1 {
     position: absolute;
     left: 15.3%;
 }
@@ -58,16 +59,16 @@ img {
     cursor: pointer;
 }
 
-/*Animatie*/
+/*Animatie pijl*/
 
 svg #pijl polygon:first-child {
     animation: pijl 1s ease-in-out infinite alternate;
-    transform-origin: bottom; 
+    transform-origin: bottom;
 }
 
 svg #pijl polygon {
     animation: pijltje 1s ease-in-out infinite alternate;
-    transform-origin: bottom; 
+    transform-origin: bottom;
 }
 
 svg #pijl polygon:first-child:hover {
@@ -76,34 +77,60 @@ svg #pijl polygon:first-child:hover {
 
 svg #pijl_klein polygon:last-child {
     animation: pijl .5s ease-in-out infinite alternate;
-    transform-origin: left; 
+    transform-origin: left;
 }
 
 svg #pijl_klein polygon {
     animation: pijltje .5s ease-in-out infinite alternate;
-    transform-origin: left; 
+    transform-origin: left;
 }
 
 svg #pijl_klein polygon:last-child:hover {
     fill: #EA5235;
 }
 
-@keyframes pijl{
+@keyframes pijl {
     from {
         transform: rotateZ(0deg);
         /*transform: rotateY(0deg);*/
     }
+
     to {
         transform: rotateZ(-3deg);
     }
 }
 
-@keyframes pijltje{
+@keyframes pijltje {
     from {
         transform: rotateZ(0deg);
         /*transform: rotateY(0deg);*/
     }
+
     to {
         transform: rotateZ(-3deg);
+    }
+}
+
+/*rotate Z*/
+
+/*
+#Z {
+    cursor: pointer;
+    fill: yellow;
+}
+*/
+#Z:hover {
+    animation: rotate 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
     }
 }
