@@ -4,10 +4,15 @@
     font-family: "P22 Underground Book"; 
     src:url("https://use.typekit.net/ebr4koe.css");
 }
+
 body {
     background-color: #F8F4E7;
     width: 60%;
     text-align: center;
+}
+
+body, svg {
+    margin-top: 10%;
 }
 
 /*kopjes*/
@@ -21,33 +26,84 @@ h2 {
 
 #h2_1{
     position: absolute;
-    left: 19.1%;
+    left: 15.3%;
 }
 
 #h2_2 {
     float: right;
-    padding-left: 48.5%;
+    padding-left: 55%;
     position: absolute;
-    margin-top: 13%;
+    margin-top: 19%;
 }
 
 /*inhoud*/
 
 section {
-    width: 60%;
+    width: 50%;
 }
 
 svg {
-    width: 60%;
+    width: 70%;
     position: absolute;
-    top: 2%;
+    top: 4%;
 }
 
 img {
     float: right;
     position: absolute;
     z-index: 3;
-    width: 15%;
-    margin-top: 23%;
-    margin-left: 40.5%;
+    width: 20%;
+    margin-top: 24%;
+    margin-left: 46%;
+    cursor: pointer;
+}
+
+/*Animatie*/
+
+svg #pijl polygon:first-child {
+    animation: pijl 1s ease-in-out infinite alternate;
+    transform-origin: bottom; 
+}
+
+svg #pijl polygon {
+    animation: pijltje 1s ease-in-out infinite alternate;
+    transform-origin: bottom; 
+}
+
+svg #pijl polygon:first-child:hover {
+    fill: #EA5235;
+}
+
+svg #pijl_klein polygon:last-child {
+    animation: pijl .5s ease-in-out infinite alternate;
+    transform-origin: left; 
+}
+
+svg #pijl_klein polygon {
+    animation: pijltje .5s ease-in-out infinite alternate;
+    transform-origin: left; 
+}
+
+svg #pijl_klein polygon:last-child:hover {
+    fill: #EA5235;
+}
+
+@keyframes pijl{
+    from {
+        transform: rotateZ(0deg);
+        /*transform: rotateY(0deg);*/
+    }
+    to {
+        transform: rotateZ(-3deg);
+    }
+}
+
+@keyframes pijltje{
+    from {
+        transform: rotateZ(0deg);
+        /*transform: rotateY(0deg);*/
+    }
+    to {
+        transform: rotateZ(-3deg);
+    }
 }
