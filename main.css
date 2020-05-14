@@ -7,7 +7,7 @@
 
 body {
     background-color: #F8F4E7;
-    width: 60%;
+    width: 70%;
     text-align: center;
 }
 
@@ -27,14 +27,14 @@ h2 {
 
 #h2_1 {
     position: absolute;
-    left: 15.3%;
+    left: 8vw;
 }
 
 #h2_2 {
     float: right;
-    padding-left: 55%;
+    margin-left: 58vw;
     position: absolute;
-    margin-top: 19%;
+    margin-top: 18%;
 }
 
 /*inhoud*/
@@ -44,9 +44,10 @@ section {
 }
 
 svg {
-    width: 70%;
+    width: 80%;
     position: absolute;
-    top: 4%;
+    top: 1vw;;
+    margin-left: -10vw;
 }
 
 img {
@@ -54,12 +55,13 @@ img {
     position: absolute;
     z-index: 3;
     width: 20%;
-    margin-top: 24%;
-    margin-left: 46%;
+    margin-top: 31%;
+    margin-left: 44vw;
     cursor: pointer;
 }
 
 /*Animatie pijl*/
+
 
 svg #pijl polygon:first-child {
     animation: pijl 1s ease-in-out infinite alternate;
@@ -109,6 +111,12 @@ svg #pijl_klein polygon:last-child:hover {
     to {
         transform: rotateZ(-3deg);
     }
+}
+
+/*kleur veranderen pijl*/
+
+.clicked {
+    fill: yellow;
 }
 
 /*rotate Z*/
