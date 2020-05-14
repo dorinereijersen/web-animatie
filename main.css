@@ -62,7 +62,6 @@ img {
 
 /*Animatie pijl*/
 
-
 svg #pijl polygon:first-child {
     animation: pijl 1s ease-in-out infinite alternate;
     transform-origin: bottom;
@@ -140,5 +139,43 @@ svg #pijl_klein polygon:last-child:hover {
 
     to {
         transform: rotateZ(360deg);
+    }
+}
+
+@media only screen and (min-width: 23.4em) {
+    svg{
+        width: 100%;
+        margin: 0px;
+        margin-top: 2vh;
+        left: 0;
+    }   
+    #h2_1{
+        margin: 0px;
+        left: 2%;
+        top: 2%;
+        font-size: 2.5em;
+    }
+    #h2_2 {
+        font-size:2.5em;
+        margin-left: 54vw;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    svg{
+        width: 100%;
+        margin: 0px;
+        margin-top: 2vh;
+        left: 0;
+    }   
+    #h2_1{
+        margin: 0px;
+        left: 2%;
+        top: 2%;
+        font-size: 2em;
+    }
+    #h2_2 {
+        font-size:2em;
+        margin-left: 56vw;
     }
 }
