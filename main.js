@@ -40,8 +40,18 @@ button.addEventListener("click", function() {
   body.classList.toggle("yay");
 });
 
-//cijfer
+//meetlint
+var meetlint = document.getElementById("meetlint");
+var meetlint1 = document.getElementById("meetlint1");
+
+button.addEventListener("click", function() {
+    meetlint.classList.toggle("yay");
+    meetlint1.classList.toggle("yay");
+});
+    
+    //cijfer
     //nul
+    var nul = document.getElementById("nul");
     var nulH1 = document.getElementById("half1");
     var nulH2 = document.getElementById("half2");
     var nulH3 = document.getElementById("half3");
@@ -53,51 +63,88 @@ button.addEventListener("click", function() {
     var een2 = document.getElementById("een2");
     var een3 = document.getElementById("een3");
     var een4 = document.getElementById("een4");
-var eenH = document.getElementById("eenhalf");
+    //anderhalf
     var eenhalf1 = document.getElementById("eenhalf1");
     var eenhalf2 = document.getElementById("eenhalf2");
     var eenhalf3 = document.getElementById("eenhalf3");
     var eenhalf4 = document.getElementById("eenhalf4");
     var eenhalf5 = document.getElementById("eenhalf5");
     var eenhalf6 = document.getElementById("eenhalf6");
-
-var Twee = document.getElementById("twee");
+    var eenhalf7 = document.getElementById("eenhalf7");
+    //twee
     var twee1 = document.getElementById("twee1");
     var twee2 = document.getElementById("twee2");
     var twee3 = document.getElementById("twee3");
     var twee4 = document.getElementById("twee4");
-
-var tweeH = document.getElementById("tweehalf");
-var Drie = document.getElementById("drie");
-var drieH = document.getElementById("driehalf");
+    //tweehalf
+    var tweehalf1 = document.getElementById("tweehalf1");
+    var tweehalf2 = document.getElementById("tweehalf2");
+    var tweehalf3 = document.getElementById("tweehalf3");
+    var tweehalf4 = document.getElementById("tweehalf4");
+    var tweehalf5 = document.getElementById("tweehalf5");
+    var tweehalf6 = document.getElementById("tweehalf6");
+    var tweehalf7 = document.getElementById("tweehalf7");
+    //drie
+    var drie1 = document.getElementById("drie1");
+    var drie2 = document.getElementById("drie2");
+    var drie3 = document.getElementById("drie3");
+    var drie4 = document.getElementById("drie4");
+    //driehalf
+    var driehalf1 = document.getElementById("driehalf1");
+    var driehalf2 = document.getElementById("driehalf2");
+    var driehalf3 = document.getElementById("driehalf3");
+    var driehalf4 = document.getElementById("driehalf4");
+    var driehalf5 = document.getElementById("driehalf5");
+    var driehalf6 = document.getElementById("driehalf6");
+    var driehalf7 = document.getElementById("driehalf7");
 
 button.addEventListener("click", function() {
+nul.classList.toggle("yay");
     nulH1.classList.toggle("yay");
     nulH2.classList.toggle("yay");
     nulH3.classList.toggle("yay");
     nulH4.classList.toggle("yay");
     nulH5.classList.toggle("yay");
     nulH6.classList.toggle("yay");
+    
     een1.classList.toggle("yay");
     een2.classList.toggle("yay");
     een3.classList.toggle("yay");
     een4.classList.toggle("yay");
+    
     eenhalf1.classList.toggle("yay");
     eenhalf2.classList.toggle("yay");
     eenhalf3.classList.toggle("yay");
     eenhalf4.classList.toggle("yay");
     eenhalf5.classList.toggle("yay");
     eenhalf6.classList.toggle("yay");
+    eenhalf7.classList.toggle("yay");
+    
     twee1.classList.toggle("yay");
     twee2.classList.toggle("yay");
     twee3.classList.toggle("yay");
     twee4.classList.toggle("yay");
-
-    eenH.classList.toggle("yay");
-    Twee.classList.toggle("yay");
-    tweeH.classList.toggle("yay");
-    Drie.classList.toggle("yay");
-    drieH.classList.toggle("yay");
+    
+    tweehalf1.classList.toggle("yay");
+    tweehalf2.classList.toggle("yay");
+    tweehalf3.classList.toggle("yay");
+    tweehalf4.classList.toggle("yay");
+    tweehalf5.classList.toggle("yay");
+    tweehalf6.classList.toggle("yay");
+    tweehalf7.classList.toggle("yay");
+    
+    drie1.classList.toggle("yay");
+    drie2.classList.toggle("yay");
+    drie3.classList.toggle("yay");
+    drie4.classList.toggle("yay");
+    
+    driehalf1.classList.toggle("yay");
+    driehalf2.classList.toggle("yay");
+    driehalf3.classList.toggle("yay");
+    driehalf4.classList.toggle("yay");
+    driehalf5.classList.toggle("yay");
+    driehalf6.classList.toggle("yay");
+    driehalf7.classList.toggle("yay");
 });
 
 //model

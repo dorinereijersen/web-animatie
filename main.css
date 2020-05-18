@@ -9,7 +9,7 @@ body {
     background-color: #F8F4E7;
     width: 70%;
     text-align: center;
-/*
+    /*
     background:
     linear-gradient(purple 0%, red 90%), 
     linear-gradient(to right, purple 0%, yellow 90%), 
@@ -49,7 +49,8 @@ section {
 svg {
     width: 80%;
     position: absolute;
-    top: 1vw;;
+    top: 1vw;
+    ;
     margin-left: -10vw;
 }
 
@@ -109,7 +110,6 @@ svg #pijl_klein polygon:last-child:hover {
         transform: rotateZ(0deg);
         /*transform: rotateY(0deg);*/
     }
-
     to {
         transform: rotateZ(-3deg);
     }
@@ -117,13 +117,26 @@ svg #pijl_klein polygon:last-child:hover {
 
 /*kleur veranderen pijl*/
 
-#driehoek.yay , #vierkant1.yay , #vierkant2.yay , #vierkant3.yay , #vierkant4.yay{
+#driehoek.yay,
+#vierkant1.yay,
+#vierkant2.yay,
+#vierkant3.yay,
+#vierkant4.yay {
     fill: white;
 }
 
 /*grote pijl veranderen*/
 
-#rh0.yay , #rh1.yay , #rh2.yay , #rh3.yay ,#rh4.yay , #rh5.yay , #rh6.yay , #rh7.yay , #rh8.yay , #rh9.yay{
+#rh0.yay,
+#rh1.yay,
+#rh2.yay,
+#rh3.yay,
+#rh4.yay,
+#rh5.yay,
+#rh6.yay,
+#rh7.yay,
+#rh8.yay,
+#rh9.yay {
     fill: white;
 }
 
@@ -138,20 +151,70 @@ body.yay {
     fill: white;
 }
 
-#half1.yay , #half2.yay , #half3.yay , #half4.yay , #half5.yay , #half6.yay{
+#half1.yay,
+#half2.yay,
+#half3.yay,
+#half4.yay,
+#half5.yay,
+#half6.yay {
     fill: white;
 }
 
-#een1.yay , #een2.yay , #een3.yay , #een4.yay{
+#een1.yay,
+#een2.yay,
+#een3.yay,
+#een4.yay {
     fill: white;
 }
 
-#eenhalf1.yay , #eenhalf2.yay , #eenhalf3.yay , #eenhalf4.yay , #eenhalf5.yay , #eenhalf6.yay{
+#eenhalf1.yay,
+#eenhalf2.yay,
+#eenhalf3.yay,
+#eenhalf4.yay,
+#eenhalf5.yay,
+#eenhalf6.yay,
+#eenhalf7.yay {
     fill: white;
 }
 
-#twee1.yay , #twee2.yay , #twee3.yay , #twee4.yay {
+#twee1.yay,
+#twee2.yay,
+#twee3.yay,
+#twee4.yay {
     fill: white;
+}
+
+#tweehalf1.yay,
+#tweehalf2.yay,
+#tweehalf3.yay,
+#tweehalf4.yay,
+#tweehalf5.yay,
+#tweehalf6.yay {
+    fill: white;
+}
+
+#tweehalf7.yay {
+    stroke: white;
+}
+
+#drie1.yay,
+#drie2.yay,
+#drie3.yay,
+#drie4.yay {
+    fill: white;
+}
+
+#driehalf1.yay,
+#driehalf2.yay,
+#driehalf3.yay,
+#driehalf4.yay,
+#driehalf5.yay,
+#driehalf6.yay {
+    fill: white;
+}
+
+#driehalf7.yay {
+    stroke: white;
 }
 
 /*
@@ -160,15 +223,30 @@ body.yay {
 }
 */
 
+#meetlint.yay line {
+    stroke: white;
+}
+
+#meetlint1.yay {
+    fill: white;
+}
+
 /*cm*/
 
-#C.yay , #cM.yay , #punt.yay , #punt2.yay{
+#C.yay,
+#cM.yay,
+#punt.yay,
+#punt2.yay {
     fill: white;
 }
 
 /*model*/
 
-#M.yay , #O.yay , #D.yay , #E.yay , #L.yay{
+#M.yay,
+#O.yay,
+#D.yay,
+#E.yay,
+#L.yay {
     fill: white;
 }
 
@@ -194,7 +272,6 @@ body.yay {
     from {
         transform: rotateZ(0deg);
     }
-
     to {
         transform: rotateZ(360deg);
     }
