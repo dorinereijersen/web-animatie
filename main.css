@@ -9,11 +9,14 @@ body {
     background-color: #F8F4E7;
     width: 70%;
     text-align: center;
-}
-
-body,
-svg {
-    margin-top: 10%;
+/*
+    background:
+    linear-gradient(purple 0%, red 90%), 
+    linear-gradient(to right, purple 0%, yellow 90%), 
+    url('bgImage.jpg') 10px,
+    url('bgImage.jpg') 20px;
+    background-blend-mode: screen, difference, lighten;
+*/
 }
 
 /*kopjes*/
@@ -55,7 +58,7 @@ img {
     position: absolute;
     z-index: 3;
     width: 20%;
-    margin-top: 31%;
+    margin-top: 28%;
     margin-left: 44vw;
     cursor: pointer;
 }
@@ -114,8 +117,63 @@ svg #pijl_klein polygon:last-child:hover {
 
 /*kleur veranderen pijl*/
 
-.clicked {
-    fill: yellow;
+#driehoek.yay , #vierkant1.yay , #vierkant2.yay , #vierkant3.yay , #vierkant4.yay{
+    fill: white;
+}
+
+/*grote pijl veranderen*/
+
+#rh0.yay , #rh1.yay , #rh2.yay , #rh3.yay ,#rh4.yay , #rh5.yay , #rh6.yay , #rh7.yay , #rh8.yay , #rh9.yay{
+    fill: white;
+}
+
+/*stippel onder*/
+
+body.yay {
+    background-color: #1D1D1B;
+}
+
+/*meetlint cijfers*/
+#nul.yay {
+    fill: white;
+}
+
+#half1.yay , #half2.yay , #half3.yay , #half4.yay , #half5.yay , #half6.yay{
+    fill: white;
+}
+
+#een1.yay , #een2.yay , #een3.yay , #een4.yay{
+    fill: white;
+}
+
+#eenhalf1.yay , #eenhalf2.yay , #eenhalf3.yay , #eenhalf4.yay , #eenhalf5.yay , #eenhalf6.yay{
+    fill: white;
+}
+
+#twee1.yay , #twee2.yay , #twee3.yay , #twee4.yay {
+    fill: white;
+}
+
+/*
+#blok1.yay , #blok2.yay , #blok3.yay , #blok4.yay , #blok5.yay{
+    fill: white;
+}
+*/
+
+/*cm*/
+
+#C.yay , #cM.yay , #punt.yay , #punt2.yay{
+    fill: white;
+}
+
+/*model*/
+
+#M.yay , #O.yay , #D.yay , #E.yay , #L.yay{
+    fill: white;
+}
+
+#Z.yay {
+    fill: white;
 }
 
 /*rotate Z*/
@@ -142,6 +200,7 @@ svg #pijl_klein polygon:last-child:hover {
     }
 }
 
+/*
 @media only screen and (min-width: 23.4em) {
     svg{
         width: 100%;
@@ -153,11 +212,11 @@ svg #pijl_klein polygon:last-child:hover {
         margin: 0px;
         left: 2%;
         top: 2%;
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     #h2_2 {
-        font-size:2.5em;
-        margin-left: 54vw;
+        font-size:1.5em;
+        margin-left: 57vw;
     }
 }
 
@@ -179,3 +238,27 @@ svg #pijl_klein polygon:last-child:hover {
         margin-left: 56vw;
     }
 }
+
+@media only screen and (min-width: 70em) {
+    svg{
+        width: 70%;
+        margin: auto;
+        margin-top: 2vh;
+        left: 10vw;
+    }   
+    #h2_1{
+        margin: 0px;
+        left: 2%;
+        top: 2%;
+        font-size: 2em;
+    }
+    #h2_2 {
+        font-size:2em;
+        margin-left: 54vw;
+        margin-top: 8vw;
+    }
+    #weegschaal {
+        margin-top: 3vh;
+        width: 18vw;
+    }
+}*/
