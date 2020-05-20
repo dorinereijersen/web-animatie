@@ -238,3 +238,15 @@ button.addEventListener("click", function() {
     vier.classList.toggle("yay");
     vijf.classList.toggle("yay");
 });
+
+
+//toetsenbord klik
+var bodyBG = document.querySelector('body');
+
+window.addEventListener("keydown", toggle);
+
+function toggle(event) {
+    if(event.keyCode === 66) {
+        bodyBG.classList.toggle('click');
+    }
+ }
