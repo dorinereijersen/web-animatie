@@ -250,3 +250,11 @@ function toggle(event) {
         bodyBG.classList.toggle('click');
     }
  }
+
+var bodyBG2 = document.querySelector("body");
+var kleurbutton = document.getElementById("button");
+
+kleurbutton.addEventListener("click", function(){
+    bodyBG2.classList.toggle("click");
+                             }
+                            )

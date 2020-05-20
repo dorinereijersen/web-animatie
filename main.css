@@ -5,10 +5,15 @@
     src: url("https://use.typekit.net/ebr4koe.css");
 }
 
+header{
+    background-color: #ea5235;
+    padding: 1px; 
+}
+
 body {
     background-color: #F8F4E7;
     text-align: center;
-    margin: 1px;
+    margin: 0px;
 }
 
 body.click {
@@ -20,6 +25,24 @@ body.click {
     height: 10px;
 }
 
+#button {
+    list-style-type: none;
+    background-image: url(images/buttonKleur.png);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    padding: 2em 0em 1em 0em;
+    cursor: pointer;
+    border-color: black 1px solid;
+}
+
+nav{
+    margin: 0 auto;
+    display: block;
+    width: 2em;
+}
+ul{
+    padding: 0px;
+}
 /*kopjes*/
 
 h2 {
@@ -32,6 +55,7 @@ h2 {
 #h2_1 {
     position: absolute;
     left: 8vw;
+    margin-top: 2em;
 }
 
 #h2_2 {
@@ -46,7 +70,6 @@ h2 {
 svg {
     display: block;
     margin: 0 auto;
-    width: 80%;
 }
 
 img {
@@ -252,45 +275,39 @@ body.yay {
 }
 
 
-@media only screen and (min-width: 23.4em) {
+@media only screen and (min-width: 20em) {
     svg{
-        
+        margin-top: 3em;
+        max-width: 90%;
     }   
-    #h2_1{
-        
-    }
-    #h2_2 {
-        
+    #weegschaal {
+        position: absolute;
+        margin-top: 21vh;
+        margin-right: -4.5vw;
+        width: 23%;
     }
 }
 
 @media only screen and (min-width: 48em) {
-    svg{
-        max-width: 40em;
+    svg {
+        max-width: 75%;
     }   
-    #h2_1{
-        
-    }
     #weegschaal {
-       max-width: 20em;
-        right: 16&;
-        top: 29%;
+        position: absolute;
+        margin-top: 13vh;
+        margin-right: 2vw;
+        width: 18%;
     }
 }
 
 @media only screen and (min-width: 60em) {
     svg{
-        max-width: 40em;
+        max-width: 60%;
     }   
-    #h2_1{
-       
-    }
-    #h2_2 {
-        
-    }
     #weegschaal {
-        max-width: 10em;
-        right: 31.5%;
-        top: 32%;
+        width: 15%;
+        margin-top: 5vh;
+        margin-right: 8.5vw;
     }
-}*/
+
+}
