@@ -59,6 +59,10 @@ img {
 
 /*Animatie pijl*/
 
+svg #pijl:active {
+    animation: none;
+}
+
 svg #pijl polygon:first-child {
     animation: pijl 1s ease-in-out infinite alternate;
     transform-origin: bottom;
@@ -71,6 +75,7 @@ svg #pijl polygon {
 
 svg #pijl polygon:first-child:hover {
     fill: #EA5235;
+    transition: 1s;
 }
 
 svg #pijl_klein polygon:last-child {
@@ -92,7 +97,6 @@ svg #pijl_klein polygon:last-child:hover {
         transform: rotateZ(0deg);
         /*transform: rotateY(0deg);*/
     }
-
     to {
         transform: rotateZ(-3deg);
     }
@@ -140,63 +144,38 @@ body.yay {
 }
 
 /*meetlint cijfers*/
-#nul.yay {
-    fill: white;
-}
-
+#nul.yay,
 #half1.yay,
 #half2.yay,
 #half3.yay,
 #half4.yay,
 #half5.yay,
-#half6.yay {
-    fill: white;
-}
-
+#half6.yay,
 #een1.yay,
 #een2.yay,
 #een3.yay,
-#een4.yay {
-    fill: white;
-}
-
+#een4.yay,
 #eenhalf1.yay,
 #eenhalf2.yay,
 #eenhalf3.yay,
 #eenhalf4.yay,
 #eenhalf5.yay,
 #eenhalf6.yay,
-#eenhalf7.yay {
-    fill: white;
-}
-
+#eenhalf7.yay,
 #twee1.yay,
 #twee2.yay,
 #twee3.yay,
-#twee4.yay {
-    fill: white;
-}
-
+#twee4.yay,
 #tweehalf1.yay,
 #tweehalf2.yay,
 #tweehalf3.yay,
 #tweehalf4.yay,
 #tweehalf5.yay,
-#tweehalf6.yay {
-    fill: white;
-}
-
-#tweehalf7.yay {
-    stroke: white;
-}
-
+#tweehalf6.yay,
 #drie1.yay,
 #drie2.yay,
 #drie3.yay,
-#drie4.yay {
-    fill: white;
-}
-
+#drie4.yay,
 #driehalf1.yay,
 #driehalf2.yay,
 #driehalf3.yay,
@@ -206,7 +185,8 @@ body.yay {
     fill: white;
 }
 
-#driehalf7.yay {
+#tweehalf7.yay,
+#driehalf7.yay{
     stroke: white;
 }
 
@@ -271,65 +251,46 @@ body.yay {
     }
 }
 
-/*
+
 @media only screen and (min-width: 23.4em) {
     svg{
-        width: 100%;
-        margin: 0px;
-        margin-top: 2vh;
-        left: 0;
+        
     }   
     #h2_1{
-        margin: 0px;
-        left: 2%;
-        top: 2%;
-        font-size: 1.5em;
+        
     }
     #h2_2 {
-        font-size:1.5em;
-        margin-left: 57vw;
+        
     }
 }
 
 @media only screen and (min-width: 48em) {
     svg{
-        width: 100%;
-        margin: 0px;
-        margin-top: 2vh;
-        left: 0;
+        max-width: 40em;
     }   
     #h2_1{
-        margin: 0px;
-        left: 2%;
-        top: 2%;
-        font-size: 2em;
+        
     }
-    #h2_2 {
-        font-size:2em;
-        margin-left: 56vw;
+    #weegschaal {
+       max-width: 20em;
+        right: 16&;
+        top: 29%;
     }
 }
 
-@media only screen and (min-width: 70em) {
+@media only screen and (min-width: 60em) {
     svg{
-        width: 70%;
-        margin: auto;
-        margin-top: 2vh;
-        left: 10vw;
+        max-width: 40em;
     }   
     #h2_1{
-        margin: 0px;
-        left: 2%;
-        top: 2%;
-        font-size: 2em;
+       
     }
     #h2_2 {
-        font-size:2em;
-        margin-left: 54vw;
-        margin-top: 8vw;
+        
     }
     #weegschaal {
-        margin-top: 3vh;
-        width: 18vw;
+        max-width: 10em;
+        right: 31.5%;
+        top: 32%;
     }
 }*/
