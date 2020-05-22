@@ -1,5 +1,13 @@
-# web-animatie
+# Onderbouwing - Web-Animatie
+---
 
-# Plaatje
-http://oa.letterformarchive.org/item?workID=lfa_schuitema_0011&LFAPics=Yes
-<img src="https://ia800705.us.archive.org/3/items/LFASchuitema0011/LFA_Schuitema_0011_001.jpg"> </img>
+## Inleiding
+ <br>
+Voor het vak *Web-Animatie* mocht ik een flyer uitzoeken naar keuze en die animeren door middel van HTML, CSS en Javascript.
+
+---
+
+<br>
+### Flyer
+Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor deze flyer:
+<link url="http://oa.letterformarchive.org/item?workID=lfa_schuitema_0011&LFAPics=Yes"></link>    
