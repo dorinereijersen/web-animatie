@@ -10,10 +10,10 @@ Ik heb al enige ervaring met coderen omdat ik CMD doe, maar het was allemaal al 
 ---
 Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor deze flyer:
 
-<img src="images/plaatje.jpg" width="200"></img>
+<img src="images/plaatje.jpg" width="200"></img> <img src="images/MobielFormaat.png" width="200"></img>
 
 Dit is de flyer digitaal geworden op mobiel formaat:
-<img src="images/MobielFormaat.png" width="200"></img>
+
 
 ### Waarom deze Flyer?
 ---
