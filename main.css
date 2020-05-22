@@ -39,13 +39,11 @@ body.click {
   background-color: #ea5235;
   padding: 10px;
   right: 20px;
-  top: 10px;
-    margin-top: .8em;
+  margin-top: .8em;
   cursor: pointer;
   background-image: url(images/buttonKleur.png);
   background-repeat: no-repeat;
   background-size: contain;
-  transition: all 200ms;
 }
 
 /*kopjes*/
@@ -79,10 +77,7 @@ svg {
 
 img {
     position: absolute;
-    width: 20%;
     cursor: pointer;
-    top: 29vw;
-    right: 16.5vw;
 }
 
 /*Animatie pijl*/
@@ -291,8 +286,12 @@ body.yay {
     #weegschaal {
         position: absolute;
         top: 32%;
+        left: 65.5%;
+        width: 22%;
+    }
+    body.click #weegschaal{
+        top: 13em;
         right: 12%;
-        width: 23%;
     }
 }
 
@@ -303,8 +302,12 @@ body.yay {
     #weegschaal {
         position: absolute;
         top: 29%;
-        right: 18%;
+        left: 62.5%;
         width: 19%;
+    }
+    body.click #weegschaal {
+        top: 18em;
+        right: 12%;
     }
 }
 
@@ -314,8 +317,12 @@ body.yay {
     }   
     #weegschaal {
         width: 15%;
-        top: 55%;
-        margin-right: 8.3vw;
+        top: 56%;
+        left: 60.5%;
     }
-
+    body.click #weegschaal {
+        width: 15%;
+        top: 26em;
+        left: 60.3%;
+    }
 }

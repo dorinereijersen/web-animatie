@@ -246,7 +246,7 @@ var bodyBG = document.querySelector('body');
 window.addEventListener("keydown", toggle);
 
 function toggle(event) {
-    if(event.keyCode === 66) {
+    if(event.keyCode === 90) {
         bodyBG.classList.toggle('click');
     }
  }
