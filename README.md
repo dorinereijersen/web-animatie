@@ -8,12 +8,10 @@ Ik heb al enige ervaring met coderen omdat ik CMD doe, maar het was allemaal al 
 
 ### Flyer
 ---
-Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor deze flyer:
+Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor de flyer links op de afbeelding hieronder.
+De afbeelding rechts is hoe het op digitaal is geworden.
 
 <img src="images/plaatje.jpg" width="200"></img> <img src="images/MobielFormaat.png" width="200"></img>
-
-Dit is de flyer digitaal geworden op mobiel formaat:
-
 
 ### Waarom deze Flyer?
 ---
