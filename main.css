@@ -229,6 +229,7 @@ body.yay {
 
 #meetlint line:hover {
     stroke: #EA5135;
+    transition: .3s ease;
 }
 #meetlint.yay line:hover{
     stroke: ;
@@ -285,12 +286,12 @@ body.yay {
     }   
     #weegschaal {
         position: absolute;
-        top: 32%;
+        top: 33%;
         left: 65.5%;
         width: 22%;
     }
     body.click #weegschaal{
-        top: 13em;
+        top: 13.5em;
         right: 12%;
     }
 }
@@ -312,17 +313,20 @@ body.yay {
 }
 
 @media only screen and (min-width: 60em) {
+    header {
+        display: none;
+    }
     svg{
         max-width: 60%;
     }   
     #weegschaal {
         width: 15%;
-        top: 56%;
+        top: 50%;
         left: 60.5%;
     }
     body.click #weegschaal {
         width: 15%;
-        top: 26em;
+        top: 20em;
         left: 60.3%;
     }
 }

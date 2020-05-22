@@ -1,4 +1,5 @@
 # Onderbouwing - Web-Animatie
+---
 
 ## Inleiding
 ---
@@ -9,32 +10,19 @@ Voor het vak *Web-Animatie* mocht ik een flyer uitzoeken naar keuze en die anime
 Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor deze flyer:
 <img src="images/plaatje.jpg" width="200"></img>
 
-### Quiz/weetjes vragen
+### Waarom deze Flyer?
 ---
-Locatie: *in app*
+Ik koos deze flyer, omdat ik vintage voorwerpen altjd erg interessant vind. Zo ook deze weegschaal. Ik denk ook dat deze flyer mij trok, omdat er nederlandse tekst op staat wat misschien herkenbaarheid in mij triggerde.
 
-Voor de (web)app zullen o.a. ook dezelfde informatie zoals op de schermen nodig hebben (Dieren, leefomgeving en foto's). Deze worden deze feiten zullen worden omgegoten tot vragen. Deze worden per vraag in een **verzamelbak** gedaan zodat per Bassin meerdere vragen mogelijk zijn om zo herhaling te voorkomen.
+### Animatie
+---
+De link naar mijn animatie: https://dorinereijersen.github.io/web-animatie/
 
-- Welke dieren in welk bassin zitten.
- - Welke zeeën ze komen (temperaturen, leefomgeving e.d.).
- - Foto van het dier.
-
- <br>
-
-### Routebegeleiding *nog niet zeker*
-Locatie: *in app*
-
-In de app zal een **routebegeleiding** worden gebruikt om de bezoeker langs zoveel mogelijk bassins te begeleiden en zo dus op deze manier niks missen (zoals hiervoor wel het geval was). Hier zullen wij onder andere een plattegrond moeten hebben van het Aquarium.
-
-- Plattegrond van het Aquarium
-- Database met druktemomenten van het Aquarium
-
-### Ranking
-Locatie: *in app*
-
-Aan het eind van onze experience zal er een **ranking** plaatsvinden. De gebruikers krijgen een lijst opgestuurd met de ranking van die *dag* en *over het algemeen*.
-
-- Emailadres van de gebruiker
-- Naam van de gebruiker
-- Behaalde punten
-- De ranking van de voorgaande dagen
+De interacties die het bevat zijn het volgende:
+    • Als de pagina geopend wordt, zijn er twee pijlen die bewegen. Dit heb ik gedaan, omdat in het echt de pijl op de weegschaal naaar rechts beweegt, zodra er gewicht op de schaal komt.
+    • Kleuren worden negatief als je op Z klikt. De weegschaal de flyer is van het model Z.
+    Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt.
+    • Op de weegschaal kan gedrukt worden, dan worden de kleuren omgedraaid van de content. Dus de meetlint wordt bijvoorbeeld wit.
+    • De Z onderaan draait wanneer er overheen gehoverd wordt. Op mobiel kan je klikken.
+    • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
+    Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes.
