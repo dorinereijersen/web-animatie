@@ -1,18 +1,16 @@
 # Onderbouwing - Web-Animatie
 
 ## Inleiding
- <br>
+---
 Voor het vak *Web-Animatie* mocht ik een flyer uitzoeken naar keuze en die animeren door middel van HTML, CSS en Javascript.
 
-<br>
-
 ### Flyer
+---
 Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor deze flyer:
 <img src="images/plaatje.jpg" width="200"></img>
 
- <br>
-
 ### Quiz/weetjes vragen
+---
 Locatie: *in app*
 
 Voor de (web)app zullen o.a. ook dezelfde informatie zoals op de schermen nodig hebben (Dieren, leefomgeving en foto's). Deze worden deze feiten zullen worden omgegoten tot vragen. Deze worden per vraag in een **verzamelbak** gedaan zodat per Bassin meerdere vragen mogelijk zijn om zo herhaling te voorkomen.
