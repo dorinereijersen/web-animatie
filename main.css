@@ -55,17 +55,16 @@ h2 {
     letter-spacing: 1.6px;
 }
 
-#h2_1 {
+h2:first-of-type {
     position: absolute;
     left: 8vw;
     margin-top: 0em;
 }
 
-#h2_2 {
+h2:nth-of-type(2) {
     float: right;
-    margin-left: 67vw;
     position: absolute;
-    margin-top: 18%;
+    top: 25%;
 }
 
 /*inhoud*/
@@ -294,6 +293,9 @@ body.yay {
         top: 13.5em;
         right: 12%;
     }
+    h2:nth-of-type(2){
+        right: 6%;
+    }
 }
 
 @media only screen and (min-width: 48em) {
@@ -309,6 +311,13 @@ body.yay {
     body.click #weegschaal {
         top: 18em;
         right: 12%;
+    }
+    h2:first-of-type{
+        left: 12%;
+    }
+    h2:nth-of-type(2) {
+        right: 12%;
+        top: 22%;
     }
 }
 
@@ -328,5 +337,12 @@ body.yay {
         width: 15%;
         top: 20em;
         left: 60.3%;
+    }
+    h2:first-of-type {
+        left: 20%
+    }
+    h2:nth-of-type(2){
+        top: 30%;
+        right: 20%;
     }
 }
