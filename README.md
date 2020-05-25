@@ -32,7 +32,7 @@ De interacties die het bevat zijn het volgende:<br>
  • Als de pagina geopend wordt, zijn er twee pijlen die bewegen. Dit heb ik gedaan, omdat in het echt de pijl op de weegschaal naar rechts beweegt, zodra er gewicht op de schaal komt. <br>
  Ik heb dit gedaan door bij de lange pijl deze code neer te zetten:
     
-    ```
+```css
     svg #pijl polygon:first-child {
     animation: pijl 1s ease-in-out infinite alternate;
     transform-origin: bottom;
@@ -41,11 +41,11 @@ De interacties die het bevat zijn het volgende:<br>
     animation: pijltje 1s ease-in-out infinite alternate;
     transform-origin: bottom;
     }
-    ```
+```
     
 Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de origin vanaf links draait, omdat het anders de verkeerde richting op gaat.
 
-    ```
+```
     svg #pijl_klein polygon:last-child {
     animation: pijl .5s ease-in-out infinite alternate;
     transform-origin: left;
@@ -54,13 +54,13 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
     animation: pijltje .5s ease-in-out infinite alternate;
     transform-origin: left;
     }
-    ```
+```
 
 • De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. Dit heb ik gedaan door simpelweg een  ```:hover``` achter het element in css te zetten en dan een kleur erbij te geven.<br>
 • Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
 Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En vanaf daar gaat de code precies hetzelfde als wanneer je ergens op klikt, alleen verander je nu de EventListener van 'click' in 'keydown'.
     
-    ```js
+```js
        var bodyBG = document.querySelector('body');
        window.addEventListener("keydown", toggle);
        function toggle(event) {
@@ -68,7 +68,7 @@ Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En v
              bodyBG.classList.toggle('click');
          }
        }
-    ```
+```
 Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord. Ik heb dit aangegeven door bij mijn media queries ```display: none;``` neer te zetten bij de header.<br>
 • Op de weegschaal kan geklikt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit. 
 Dit heb ik gedaan door de weegschaal/button aan te roepen in javascript: ```var button = document.getElementById("weegschaal");```
@@ -84,13 +84,13 @@ En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de
 <br>
 • De Z onderaan draait wanneer er overheen gehoverd wordt. Dit heb ik in css zo neergezet:
 
-    ```css
+```css
        #Z:hover {
        animation: rotate 1s infinite;
        transform-origin: center;
        transform-box: fill-box;
        }
-    ```
+```
     
 Transform-box en transform-origin zorgden er samen voor dat de Z in het middelpunt van de letter zou draaien en niet op het midden van de pagina
 Op mobiel kan je klikken op de Z.<br>
