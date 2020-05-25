@@ -56,20 +56,9 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
     }
 ```
 
-• De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. Dit heb ik gedaan door simpelweg een  ```:hover``` achter het element in css te zetten en dan een kleur erbij te geven.<br>
-• Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
-Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En vanaf daar gaat de code precies hetzelfde als wanneer je ergens op klikt, alleen verander je nu de EventListener van 'click' in 'keydown'.
-    
-```js
-       var bodyBG = document.querySelector('body');
-       window.addEventListener("keydown", toggle);
-       function toggle(event) {
-         if(event.keyCode === 90) {
-             bodyBG.classList.toggle('click');
-         }
-       }
-```
-Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord. Ik heb dit aangegeven door bij mijn media queries ```display: none;``` neer te zetten bij de header.<br>
+• De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. Dit heb ik gedaan door simpelweg een  ```:hover``` achter het element in css te zetten en dan een kleur erbij te geven.
+
+<br>
 • Op de weegschaal kan geklikt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit. 
 Dit heb ik gedaan door de weegschaal/button aan te roepen in javascript: ```var button = document.getElementById("weegschaal");```
 Vervolgens doe ik hetzelfde bij het element waar ik de kleur wil veranderen: ```var body = document.querySelector("body");```
@@ -79,7 +68,23 @@ En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de
     body.classList.toggle("yay");
     });
  ```
- En vervolgens zet je in css de body met meegegeven class, dus  ```body.yay ``` met daarbij de kleur die je mee wilt geven.
+En vervolgens zet je in css de body met meegegeven class, dus  ```body.yay ``` met daarbij de kleur die je mee wilt geven.
+
+<br>
+• Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
+De code staat hieronder:
+    
+```js
+   var bodyBG = document.querySelector('body');
+   window.addEventListener("keydown", toggle);
+   function toggle(event) {
+      if(event.keyCode === 90) {
+          bodyBG.classList.toggle('click');
+     }
+   }
+```
+Bij de code van het klikken van het vorige punt, staat bij addEventListener bijna hetzelfde. Het enige wat nu verschilt is dat er nu ```keydown``` staat, dit houdt in dat de code naar je toetsenbord moet kijken. Met de regel ```if(event.keyCode === 90)``` geef ik aan dat de letter zet op nummer 90 staat op je toetsenbord. Hier kom je achter door eerst in je console log te kijken.
+Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord. Ik heb dit aangegeven door bij mijn media queries ```display: none;``` neer te zetten bij de header.
 
 <br>
 • De Z onderaan draait wanneer er overheen gehoverd wordt. Dit heb ik in css zo neergezet:
