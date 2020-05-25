@@ -123,7 +123,7 @@ Op mobiel kan je klikken op de Z.<br>
 
 #### Meetlint
 • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
-Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes. Dit heb ik hetzelfde gedaan als hierboven, door een ```hover``` mee te geven aan het meetlint en daarbij een kleur neer te zetten. 
+Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes. Dit heb ik hetzelfde gedaan als hierboven, door een ```:hover``` mee te geven aan het meetlint en daarbij een kleur neer te zetten. 
     
 ### Het vak Web-Animatie 
 ---
