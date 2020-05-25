@@ -128,4 +128,4 @@ Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes. Dit h
 ### Het vak Web-Animatie 
 ---
 Ik heb dit vak als prettig ervaren. In het begin was ik bang dat de lat heel hoog zou liggen en dat ik niet veel van het coderen zou snappen, maar dat viel erg mee. Ik heb  al wat jaren heb gehad in coderen en de drempel van het vak lag niet heel hoog en ik vond de opdracht leuk om te doen, dus al met al viel het mij allemaal erg mee.
-Het enige minpuntje wat ik heb is dat wij (als klas) 's ochtends om half negen aan het wachten waren tot de les begon en dat we wat laat pas een berichtje kregen dat het om negen uur begon. Dit had van mij wat eerder gecommuniceerd mogen worden, maar ik snap dat dat moeilijk was door de hele omstandigheid rondom corona.
+Het enige minpuntje wat ik heb is dat wij (als klas) 's ochtends om half negen aan het wachten waren tot de les begon en dat we wat laat pas een berichtje kregen dat het om negen uur begon. Dit had van mij wat eerder gecommuniceerd mogen worden, maar ik snap dat dat moeilijk was de omstandigheden rondom corona.
