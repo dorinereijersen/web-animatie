@@ -56,15 +56,13 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
     }
     ```
 
-• De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. <br>
+• De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. Dit heb ik gedaan door simpelweg een  ```:hover``` achter het element in css te zetten en dan een kleur erbij te geven.<br>
 • Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
 Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En vanaf daar gaat de code precies hetzelfde als wanneer je ergens op klikt, alleen verander je nu de EventListener van 'click' in 'keydown'.
     
     ```js
        var bodyBG = document.querySelector('body');
-
        window.addEventListener("keydown", toggle);
-
        function toggle(event) {
          if(event.keyCode === 90) {
              bodyBG.classList.toggle('click');
@@ -96,8 +94,9 @@ En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de
     
 Transform-box en transform-origin zorgden er samen voor dat de Z in het middelpunt van de letter zou draaien en niet op het midden van de pagina
 Op mobiel kan je klikken op de Z.<br>
+
 • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
-Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes.
+Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes. Dit heb ik hetzelfde gedaan als hierboven, door een ```hover``` mee te geven aan het meetlint en daarbij een kleur neer te zetten. 
     
 ### Het vak Web-Animatie 
 ---
