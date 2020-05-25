@@ -29,8 +29,8 @@ Paul Schuitema werkte vaak met diagonale lijnen, waardoor het oog bepaalde eleme
 De link naar mijn animatie: https://dorinereijersen.github.io/web-animatie/
 
 De interacties die het bevat zijn het volgende:<br>
-    • Als de pagina geopend wordt, zijn er twee pijlen die bewegen. Dit heb ik gedaan, omdat in het echt de pijl op de weegschaal naar rechts beweegt, zodra er gewicht op de schaal komt. <br>
-    Ik heb dit gedaan door bij de lange pijl deze code neer te zetten:
+ • Als de pagina geopend wordt, zijn er twee pijlen die bewegen. Dit heb ik gedaan, omdat in het echt de pijl op de weegschaal naar rechts beweegt, zodra er gewicht op de schaal komt. <br>
+ Ik heb dit gedaan door bij de lange pijl deze code neer te zetten:
     
     ```css
     svg #pijl polygon:first-child {
@@ -41,10 +41,8 @@ De interacties die het bevat zijn het volgende:<br>
     animation: pijltje 1s ease-in-out infinite alternate;
     transform-origin: bottom;
     }
-```
-
-```
-
+    ```
+    
 Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de origin vanaf links draait, omdat het anders de verkeerde richting op gaat.
 
     ```css
@@ -56,19 +54,27 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
     animation: pijltje .5s ease-in-out infinite alternate;
     transform-origin: left;
     }
-```
-```
+    ```
 
-Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de origin vanaf links draait, omdat het anders de verkeerde richting op gaat.
+• De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. <br>
+• Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
+Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En vanaf daar gaat de code precies hetzelfde als wanneer je ergens op klikt, alleen verander je na EventListener de 'click' in 'keydown'.
+    ```js
+    var bodyBG = document.querySelector('body');
 
-<br>
-    • De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. <br>
-    • Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. Het leek mij leuk om dit zo uit te lichten.
-    Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord.<br>
-    • Op de weegschaal kan gedrukt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit.<br>
-    • De Z onderaan draait wanneer er overheen gehoverd wordt. Op mobiel kan je klikken op de Z.<br>
-    • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
-    Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes.
+    window.addEventListener("keydown", toggle);
+
+    function toggle(event) {
+        if(event.keyCode === 90) {
+            bodyBG.classList.toggle('click');
+    }
+ }
+    ```
+Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord.<br>
+• Op de weegschaal kan gedrukt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit.<br>
+• De Z onderaan draait wanneer er overheen gehoverd wordt. Op mobiel kan je klikken op de Z.<br>
+• Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
+Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes.
     
 ### Het vak Web-Animatie 
 ---
