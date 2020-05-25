@@ -91,7 +91,6 @@ En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de
        transform-origin: center;
        transform-box: fill-box;
    }
-   
 ```
 Transform-box en transform-origin zorgden er samen voor dat de Z in het middelpunt van de letter zou draaien en niet op het midden van de pagina
 Op mobiel kan je klikken op de Z.<br>
