@@ -58,9 +58,12 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
     }
 ```
 
+#### Punten van pijlen
 • De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. Dit heb ik gedaan door simpelweg een  ```:hover``` achter het element in css te zetten en dan een kleur erbij te geven.
 
 <br>
+
+#### Weegschaal
 • Op de weegschaal kan geklikt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit. 
 Ik zal een voorbeeld laten zien van hoe ik dat bij een element heb gedaan. De werkwijze is namelijk voor de rest van de elementen hetzelfde.
 Allereerst roep ik de weegschaal (de button) aan in javascript door middel van het id wat het element heeft:
@@ -85,6 +88,8 @@ En vervolgens zet je in css de body + meegegeven class, dus  ```body.yay ``` met
 ```
 
 <br>
+
+#### Toetsenbord en kleuren
 • Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
 De code staat hieronder:
     
@@ -101,6 +106,8 @@ Bij de code van het klikken van het vorige punt, staat bij addEventListener bijn
 Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord. Ik heb dit aangegeven door bij mijn media queries ```display: none;``` neer te zetten bij de header.
 
 <br>
+
+#### Hover model Z
 • De Z onderaan draait wanneer er overheen gehoverd wordt. Dit heb ik in css zo neergezet:
 
 ```css
@@ -114,6 +121,7 @@ Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de 
 Transform-box en transform-origin zorgden er samen voor dat de Z in het middelpunt van de letter zou draaien en niet op het midden van de pagina
 Op mobiel kan je klikken op de Z.<br>
 
+#### Meetlint
 • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
 Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes. Dit heb ik hetzelfde gedaan als hierboven, door een ```hover``` mee te geven aan het meetlint en daarbij een kleur neer te zetten. 
     
