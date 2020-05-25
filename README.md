@@ -59,16 +59,17 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
 • De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. <br>
 • Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
 Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En vanaf daar gaat de code precies hetzelfde als wanneer je ergens op klikt, alleen verander je na EventListener de 'click' in 'keydown'.
+    
     ```js
     var bodyBG = document.querySelector('body');
 
-    window.addEventListener("keydown", toggle);
+     window.addEventListener("keydown", toggle);
 
-    function toggle(event) {
-        if(event.keyCode === 90) {
-            bodyBG.classList.toggle('click');
+     function toggle(event) {
+         if(event.keyCode === 90) {
+             bodyBG.classList.toggle('click');
+       }
     }
- }
     ```
 Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord.<br>
 • Op de weegschaal kan gedrukt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit.<br>
