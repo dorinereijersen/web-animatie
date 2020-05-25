@@ -61,15 +61,15 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
 Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En vanaf daar gaat de code precies hetzelfde als wanneer je ergens op klikt, alleen verander je nu de EventListener van 'click' in 'keydown'.
     
     ```js
-     var bodyBG = document.querySelector('body');
+       var bodyBG = document.querySelector('body');
 
-     window.addEventListener("keydown", toggle);
+       window.addEventListener("keydown", toggle);
 
-     function toggle(event) {
+       function toggle(event) {
          if(event.keyCode === 90) {
              bodyBG.classList.toggle('click');
+         }
        }
-    }
     ```
 Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord. Ik heb dit aangegeven door bij mijn media queries ```display: none;``` neer te zetten bij de header.<br>
 • Op de weegschaal kan geklikt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit. 
@@ -85,12 +85,13 @@ En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de
 
 <br>
 • De Z onderaan draait wanneer er overheen gehoverd wordt. Dit heb ik in css zo neergezet:
-```css
-   #Z:hover {
+```
+#Z:hover {
        animation: rotate 1s infinite;
        transform-origin: center;
        transform-box: fill-box;
    }
+   
 ```
 Transform-box en transform-origin zorgden er samen voor dat de Z in het middelpunt van de letter zou draaien en niet op het midden van de pagina
 Op mobiel kan je klikken op de Z.<br>
