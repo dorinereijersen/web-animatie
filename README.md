@@ -60,13 +60,14 @@ Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de or
 
 <br>
 • Op de weegschaal kan geklikt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit. 
-Dit heb ik gedaan door de weegschaal/button aan te roepen in javascript:
+Ik zal een voorbeeld laten zien van hoe ik dat bij een element heb gedaan. De werkwijze is namelijk voor de rest van de elementen hetzelfde.
+Allereerst roep ik de weegschaal (de button) aan in javascript door middel van het id wat het element heeft:
 
 ```var button = document.getElementById("weegschaal");``` <br>
 Vervolgens doe ik hetzelfde bij het element waar ik de kleur wil veranderen: 
 
 ```var body = document.querySelector("body");``` <br>
-En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de body een class: 
+En daarna zeg ik tegen de body dat het een class krijgt als ik op de weegschaal klik: 
 
  ```js
     button.addEventListener("click", function() {
