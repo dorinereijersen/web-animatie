@@ -20,7 +20,7 @@ Ik koos deze flyer, omdat ik vintage voorwerpen altjd erg interessant vind. Zo o
 ### Hoe is deze flyer ontstaan?
 ---
 De flyer is gemaakt door een bekende grafische ontwerper Paul Schuitema. Hij werkte voor P. van Berkel, een worst- en vleeswarenfabriek. 
-Hij heeft meerdere flyers voor dit bedrijf gemaakt, dus de gekozen flyer is er een uit velen. In dit geval maakte hij de flyer voor het *Berkel weegschaal model Z* dat net uitgekomen was. 
+Hij heeft meerdere flyers voor dit bedrijf gemaakt, dus de gekozen flyer is er een uit velen. In dit geval maakte hij de flyer voor het *Berkel weegschaal model Z* dat net uitgekomen was rond 1929.
 Er zijn flyers van hem te vinden van eerdere modellen. Hierin is over het algemeen dezelfde stijl te zien, maar er worden elke keer andere vormen gebruikt. In de flyer die ik heb gekozen zie je voornamelijk rechte vormen.
 Paul Schuitema werkte vaak met diagonale lijnen, waardoor het oog bepaalde elementen van een flyer niet mist, omdat het oog die lijnen volgt.
 
