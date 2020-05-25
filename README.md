@@ -45,7 +45,7 @@ De interacties die het bevat zijn het volgende:<br>
     
 Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de origin vanaf links draait, omdat het anders de verkeerde richting op gaat.
 
-```
+```css
     svg #pijl_klein polygon:last-child {
     animation: pijl .5s ease-in-out infinite alternate;
     transform-origin: left;
