@@ -71,8 +71,19 @@ Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En v
        }
     }
     ```
-Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord. Ik heb dit aangegeven door bij mijn media queries ```display: none;``` neer te zetten<br>
-• Op de weegschaal kan gedrukt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit.<br>
+Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord. Ik heb dit aangegeven door bij mijn media queries ```display: none;``` neer te zetten bij de header.<br>
+• Op de weegschaal kan geklikt worden, dan worden de kleuren omgedraaid van de content. Dus het meetlint wordt bijvoorbeeld wit. 
+Dit heb ik gedaan door de weegschaal/button aan te roepen in javascript: ```var button = document.getElementById("weegschaal");```
+Vervolgens doe ik hetzelfde bij het element waar ik de kleur wil veranderen: ```var body = document.querySelector("body");```
+En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de body een class: 
+ ```js
+    button.addEventListener("click", function() {
+    body.classList.toggle("yay");
+    });
+ ```
+ En vervolgens zet je in css de body met meegegeven class, dus  ```body.yay ``` met daarbij de kleur die je mee wilt geven.
+
+<br>
 • De Z onderaan draait wanneer er overheen gehoverd wordt. Op mobiel kan je klikken op de Z.<br>
 • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
 Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes.
