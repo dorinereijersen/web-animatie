@@ -31,7 +31,7 @@ De link naar mijn animatie: https://dorinereijersen.github.io/web-animatie/
 De interacties die het bevat zijn het volgende:<br>
     • Als de pagina geopend wordt, zijn er twee pijlen die bewegen. Dit heb ik gedaan, omdat in het echt de pijl op de weegschaal naar rechts beweegt, zodra er gewicht op de schaal komt. <br>
     Ik heb dit gedaan door
-    '''svg #pijl polygon:first-child {
+    ```svg #pijl polygon:first-child {
     animation: pijl 1s ease-in-out infinite alternate;
     transform-origin: bottom;
 }
@@ -39,7 +39,7 @@ De interacties die het bevat zijn het volgende:<br>
 svg #pijl polygon {
     animation: pijltje 1s ease-in-out infinite alternate;
     transform-origin: bottom;
-}'''
+}```
     • De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. <br>
     • Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. Het leek mij leuk om dit zo uit te lichten.
     Deze interactie is ook op mobiel beschikbaar als er op de button bovenaan in de header geklikt wordt. Deze header is overigens niet op laptop beschikbaar, omdat je dan gebruik kan maken van het toetsenbord.<br>
