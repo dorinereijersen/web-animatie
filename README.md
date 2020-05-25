@@ -29,6 +29,8 @@ Paul Schuitema werkte vaak met diagonale lijnen, waardoor het oog bepaalde eleme
 De link naar mijn animatie: https://dorinereijersen.github.io/web-animatie/
 
 De interacties die het bevat zijn het volgende:<br>
+
+#### Pijlen
  • Als de pagina geopend wordt, zijn er twee pijlen die bewegen. Dit heb ik gedaan, omdat in het echt de pijl op de weegschaal naar rechts beweegt, zodra er gewicht op de schaal komt. <br>
  Ik heb dit gedaan door bij de lange pijl deze code neer te zetten:
     
