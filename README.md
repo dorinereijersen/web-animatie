@@ -73,7 +73,13 @@ En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de
     body.classList.toggle("yay");
     });
  ```
-En vervolgens zet je in css de body met meegegeven class, dus  ```body.yay ``` met daarbij de kleur die je mee wilt geven.
+En vervolgens zet je in css de body + meegegeven class, dus  ```body.yay ``` met daarbij de kleur die je mee wilt geven. Dit ziet er dus zo uit: 
+
+```css
+    body.yay {
+    background-color: #1D1D1B;
+    }
+```
 
 <br>
 • Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
