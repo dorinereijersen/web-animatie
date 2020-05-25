@@ -85,13 +85,15 @@ En daarna zeg ik tegen de body, wanneer er op de button geklikt wordt, krijgt de
 
 <br>
 • De Z onderaan draait wanneer er overheen gehoverd wordt. Dit heb ik in css zo neergezet:
+
+    ```css
+       #Z:hover {
+       animation: rotate 1s infinite;
+       transform-origin: center;
+       transform-box: fill-box;
+       }
     ```
-    #Z:hover {
-    animation: rotate 1s infinite;
-    transform-origin: center;
-    transform-box: fill-box;
-    }
-    ```
+    
 Transform-box en transform-origin zorgden er samen voor dat de Z in het middelpunt van de letter zou draaien en niet op het midden van de pagina
 Op mobiel kan je klikken op de Z.<br>
 • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
