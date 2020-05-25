@@ -8,14 +8,21 @@ Ik heb al enige ervaring met coderen omdat ik CMD doe, maar het was allemaal al 
 
 ### Flyer
 ---
-Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor de flyer links op de afbeelding hieronder.
-De afbeelding rechts is hoe het op digitaal is geworden.
+Na de eerste les kregen we links gestuurd met flyers waar we uit konden kiezen. Mijn oog viel eerst op een paar andere flyers, maar omdat die niet uitdagend genoeg waren voor het vak, heb ik gekozen voor deze flyer:
 
-<img src="images/plaatje.jpg" width="200"></img> <img src="images/MobielFormaat.png" width="200"></img>
+<img src="images/plaatje.jpg" width="200"></img>
+<img src="images/MobielFormaat.png" width="200"></img>
 
 ### Waarom deze Flyer?
 ---
 Ik koos deze flyer, omdat ik vintage voorwerpen altjd erg interessant vind. Zo ook deze weegschaal. Ik denk ook dat deze flyer mij trok, omdat er nederlandse tekst op staat wat misschien herkenbaarheid in mij triggerde.
+
+### Hoe is deze flyer ontstaan?
+---
+De flyer is gemaakt door een bekende grafische ontwerper Paul Schuitema. Hij werkte voor P. van Berkel, een worst- en vleeswarenfabriek. 
+Hij heeft meerdere flyers voor dit bedrijf gemaakt, dus de gekozen flyer is er een uit velen. In dit geval maakte hij de flyer voor het *Berkel weegschaal model Z* dat net uitgekomen was. 
+Er zijn flyers van hem te vinden van eerdere modellen. Hierin is over het algemeen dezelfde stijl te zien, maar er worden elke keer andere vormen gebruikt. In de flyer die ik heb gekozen zie je voornamelijk rechte vormen.
+Paul Schuitema werkte vaak met diagonale lijnen, waardoor het oog bepaalde elementen van een flyer niet mist, omdat het oog die lijnen volgt.
 
 ### Animatie
 ---
@@ -30,3 +37,8 @@ De interacties die het bevat zijn het volgende:<br>
     • De Z onderaan draait wanneer er overheen gehoverd wordt. Op mobiel kan je klikken op de Z.<br>
     • Ik wilde ook iets subtiels doen met het meetlint, maar ik wilde het niet te druk maken. 
     Als je op laptopformaat over het meetlint hovert, verkleuren de streepjes.
+    
+### Het vak Web-Animatie 
+---
+Ik heb dit vak als prettig ervaren. In het begin was ik bang dat de lat heel hoog zou liggen en dat ik niet veel van het coderen zou snappen, maar dat viel erg mee. Ik heb  al wat jaren heb gehad in coderen en de drempel van het vak lag niet heel hoog en ik vond de opdracht leuk om te doen, dus al met al viel het mij allemaal erg mee.
+Het enige minpuntje wat ik heb is dat wij (als klas) 's ochtends om half negen aan het wachten waren tot de les begon en dat we wat laat pas een berichtje kregen dat het om negen uur begon. Dit had van mij wat eerder gecommuniceerd mogen worden, maar ik snap dat dat moeilijk was door de hele omstandigheid rondom corona.
